@@ -1,7 +1,5 @@
 apiVersion: kudo.dev/v1alpha1
 kind: TestSuite
-manifestDirs:
-- ./test/manifests/
 commands:
   - command: ./bin/kubectl-kudo init --crd-only
   - command: ./bin/manager
